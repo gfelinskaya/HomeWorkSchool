@@ -28,6 +28,7 @@
         Group grounToFind = school1["10B"];
         Console.WriteLine($"Found: {grounToFind.Id} Pupals count {grounToFind.Pupals.Count()}");
 
+        Communicator.Send(firstTeacher, pupal1, "very bad work");
     }
     }
    
