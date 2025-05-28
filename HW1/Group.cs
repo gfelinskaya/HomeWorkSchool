@@ -1,10 +1,10 @@
 public class Group
 {
-    public string ID { get; set; } = string.Empty;
+    public string Id { get; set; } = string.Empty;
     public Pupal[] Pupals { get; set; }
     public Group(string id, Pupal[] pupals)
     {
-        ID = id;
+        Id = id;
         Pupals = pupals;
     }
     
