@@ -1,4 +1,4 @@
-public class Director: Teacher
+public class Director:Teacher
 {
     public string KmowladgeField { get; set; } = string.Empty;
     public Teacher [] SubordinateTeachers { get; set; }
@@ -13,5 +13,6 @@ public class Director: Teacher
         Salary = salary;
         KmowladgeField = knowladgeField;
         SubordinateTeachers = subordinateTeachers;
+        
     }
 }

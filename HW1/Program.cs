@@ -1,6 +1,7 @@
 ﻿internal class Program
 {
     static void Main(string[] args)
+    
     {
         Teacher firstTeacher = new Teacher("Lana", "DelRay", "0986543265", 1, 15, 20000);
         Teacher secondTeacher = new Teacher("Vasia", "Pupkin", "0986544265", 2, 5, 20000);
